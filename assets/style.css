@@ -76,7 +76,25 @@ body{
 .footer{
     display: flex;
     justify-content: center;
-    
+    position: relative;
+}
+
+.footer__link{
+    position: absolute;
+    font-weight: bold;
+    left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3C4043;
+}
+
+.footer__link2{
+    position: absolute;
+    font-weight: bold;
+    right: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3C4043;
 }
 
 .casestudy{
@@ -86,6 +104,7 @@ body{
 
 .copyright{
     text-align: center;
+    margin-top: 60px;
 }
 
 .suivant__txt{
@@ -163,12 +182,15 @@ body{
     width: 200px;
     margin-left: 25px;
     margin-top: 0px;
+    font-size: 15px;
 }
 
 .header__link{
-    
+    margin-top: 20px;
     font-weight: bold;
     margin-left: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .header__linkContact{
@@ -186,7 +208,7 @@ body{
 .header__linkMenu{
     color: aliceblue;
     font-size: 20px;
-    
+    text-decoration: none;
 }
 
 /* MAIN */
@@ -249,3 +271,44 @@ body{
     font-size: 20px;
     color: #BA8268;
 }
+
+
+/* COMMENTAIRE */
+
+.témoignage__pp{
+    height: 52px;
+    width: 52px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.témoignage__profil{
+    display: flex;
+    align-items: center;
+}
+
+.témoignage__txt{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.témoignage__star{
+    display: flex;
+}
+
+.témoignage__numberStar{
+    height: auto;
+    width: 25px;
+    margin-left: 25px;
+    margin-right: -20px;
+    margin-bottom: 50px;
+}
+
+.lastST{
+    margin-top: 30px;
+}
+
+
+
+
