@@ -77,6 +77,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    margin-top: 60px;
 }
 
 .footer__link{
@@ -86,6 +87,7 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: #3C4043;
+    font-size: 20px;
 }
 
 .footer__link2{
@@ -95,6 +97,7 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: #3C4043;
+    font-size: 20px;
 }
 
 .casestudy{
@@ -112,7 +115,16 @@ body{
 }
 
 .illustration{
-    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.illustration__txt{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -197,17 +209,14 @@ body{
     position: absolute;
     color: #3C4043;
     font-size: 24px;
-    top: -25px;
     right: 25px;
-    background-color: #BDF7DA;
-    padding: 5px;
-    border-radius: 10px;
+    text-decoration: none;
     
 }
 
 .header__linkMenu{
     color: aliceblue;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -218,12 +227,13 @@ body{
     margin-left: 25px;
     font-size: 30px;
     line-height: 100%;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .sousSousTitle{
     margin-left: 25px;
+    padding-top: 20px;
 }
 
 .txt{
@@ -272,6 +282,9 @@ body{
     color: #BA8268;
 }
 
+.illustration__img{
+    border-radius: 5px;
+}
 
 /* COMMENTAIRE */
 
