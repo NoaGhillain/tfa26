@@ -8,6 +8,10 @@ body{
     color: #3C4043;
 }
 
+.bodycase{
+    background-color: #FDFAF7;
+}
+
 /* ACCUEIL */
 
 .linkContact{
@@ -144,6 +148,12 @@ body{
     object-fit: cover;
 }
 
+.linkcase{
+    color: #3C4043;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .header__color{
     background-color: #3C4043;
     position: absolute;
@@ -208,7 +218,7 @@ body{
 .header__linkContact{
     position: absolute;
     color: #3C4043;
-    font-size: 24px;
+    font-size: 20px;
     right: 25px;
     text-decoration: none;
     
@@ -222,6 +232,10 @@ body{
 
 /* MAIN */
 
+.titlecase{
+    padding-top: 200px;
+}
+
 .sousTitle{
     margin-right: 25px;
     margin-left: 25px;
@@ -234,6 +248,7 @@ body{
 .sousSousTitle{
     margin-left: 25px;
     padding-top: 20px;
+    margin-right: 25px;
 }
 
 .txt{
@@ -244,6 +259,7 @@ body{
 .divContenu{
     padding: 10px 0px 10px 0px;
     background-color: #e2d1c3;
+    margin-bottom: 40px;
 }
 
 .divContenu__txt{
@@ -284,6 +300,33 @@ body{
 
 .illustration__img{
     border-radius: 5px;
+}
+
+.img_particule{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.fullscreen{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    z-index: -8;
+}
+
+.img_design{
+    width: 100%;
+    height: auto;
+}
+
+.balckmirror{
+    margin-bottom: 0px;
+}
+
+.lastimg{
+    margin-bottom: 10px;
 }
 
 /* COMMENTAIRE */
