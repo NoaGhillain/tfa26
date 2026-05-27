@@ -456,12 +456,7 @@ body{
         margin-left: 60px;
     }
 
-    .s31img{
-        grid-column: 1/4;
-        margin-left: 60px;
-        margin-top: -345px;
-        max-width: 400px;
-    }
+   
 
     .imgl{
         margin-top: -285px;
@@ -473,19 +468,6 @@ body{
         line-height: 140%;
         margin-left: 60px;
         margin-bottom: 0px;
-    }
-
-    .sousSousTitle{
-        grid-column: 4/-1;
-        margin-left: 60px;
-        font-size: 32px;
-        line-height: 140%;
-        margin-bottom: -50px;
-    }
-
-    .txtImg{
-        grid-column: 4/-1;
-        margin-right: 60px;
     }
 
     .GTxt{
@@ -515,5 +497,37 @@ body{
    .s2{
     margin-top: 40px;
    }
+
+   .imgtxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+   .imgtxt__txt{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .sousSousTitle{
+    grid-column: 4/-1;
+    margin-left: 60px;
+    font-size: 32px;
+    line-height: 140%;
+    margin-bottom: 0px;
+}
+
+.txtImg{
+    margin-right: 60px;
+    max-width: 800px;
+}
+
+.s31img{
+    grid-column: 1/4;
+    margin-right: 60px;
+    max-width: 400px;
+    height: 250px;
+    margin-top: 20px;
+}
 
 }
