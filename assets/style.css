@@ -13,6 +13,11 @@ body{
     background-color: #FDFAF7;
 }
 
+.ttx{
+    font-weight: 500;
+    margin-top: -20px;
+}
+
 /* ACCUEIL */
 
 .linkContact{
@@ -223,7 +228,7 @@ small{
 
 .header__linkContact{
     position: absolute;
-    color: #3C4043;
+    color: #000000;
     font-size: 24px;
     right: 25px;
     text-decoration: none;
@@ -269,6 +274,7 @@ small{
     padding: 10px 0px 10px 0px;
     background-color: #e2d1c3;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .divContenu__txt{
@@ -485,7 +491,8 @@ small{
         margin-left: 60px;
         grid-column: 1/-1;
         margin-bottom: -30px;
-        margin-top: 50px;
+        margin-top: 60px;
+        margin-bottom: -20px;
     }
 
     .divContenu{
@@ -512,12 +519,15 @@ small{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
    }
 
    .imgtxt__txt{
     display: flex;
     flex-direction: column;
    }
+
+   
 
    .sousSousTitle{
     grid-column: 4/-1;
@@ -526,6 +536,11 @@ small{
     line-height: 140%;
     margin-bottom: 0px;
     margin-top: 60px;
+}
+
+    .sousSousTitle1{
+    grid-column: 1/-1;
+    margin-bottom: -30px;
 }
 
 .txtImg{
@@ -538,11 +553,32 @@ small{
     margin-right: 60px;
     max-width: 400px;
     height: 280px;
-    margin-top: 60px;
+    margin-top: 190px;
+}
+
+.si31{
+    margin-top: 200px;
+    margin-bottom: -100px;
+}
+
+.si32{
+    margin-top: 180px;
+}
+
+.si33{
+    margin-top: 220px;
+}
+
+.si34{
+    margin-top: 150px;
 }
 
 .imgl{
-    margin-top: 100px;
+    margin-top: 190px;
+}
+
+.sst2{
+    margin-top: 0px;
 }
 
 .header__color{
@@ -622,6 +658,67 @@ small{
     position: relative;
     z-index: 11;
 }
+
+.hc2{
+    width: 688px;
+}
+
+.hc3{
+    width: 685px;
+}
+
+.s12img{
+    position: absolute;
+    right: 200px;
+    top: 970px;
+    height: 450px;
+}
+
+.txt2{
+    margin-bottom: 20px;
+}
+
+.s23{
+    height: 700px;
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.divs23{
+    display: flex;
+    justify-content: center;
+}
+
+    .temoi__pc{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .témoignage{
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .témoignage__txt{
+        max-width: 570px;
+    }
+
+    .titlecase{
+        margin-top: 800px;
+    }
+
+    .divimgdesign{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .img_design{
+        margin-top: 60px;
+    }
 
 
 }
