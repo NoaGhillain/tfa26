@@ -515,6 +515,12 @@ small{
     .hc4{
         width: 452px;
     }
+
+    .visuel__txt{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
 }
 
   @media screen and (min-width: 1024px) {
