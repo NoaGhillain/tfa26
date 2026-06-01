@@ -233,7 +233,14 @@ small{
     text-decoration: none;
     list-style: none;
     margin-top: -24px;
-    
+}
+
+li{
+    list-style: none;
+}
+
+.cli{
+    margin-top: 0px;
 }
 
 .header__linkMenu{
@@ -536,6 +543,7 @@ small{
         z-index: 10;
         position: relative;
         opacity: 0%;
+        margin-top: 60px;
     }
 
     .visuel{
@@ -893,7 +901,7 @@ small{
         border-radius: 50px;
         text-decoration: none;
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         transition-duration: 0.3s;
     }
 
@@ -907,6 +915,10 @@ small{
     .display__button{
         display: flex;
         justify-content: center;
+    }
+
+    .grand__display{
+        margin-bottom: -80px;
     }
 
 }
