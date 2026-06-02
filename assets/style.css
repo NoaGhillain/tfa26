@@ -326,6 +326,7 @@ li{
 
 .sousTitle1{
     margin-left: 25px;
+    margin-top: -50px;
 }
 
 .sousSousTitle{
@@ -743,7 +744,7 @@ li{
    
 
     .imgl{
-        padding-bottom: 150px;
+        margin-bottom: 150px;
     }
 
     .st{
@@ -828,6 +829,16 @@ li{
         max-width: 400px;
         height: 280px;
         margin-top: 100px;
+        transition-duration: 0.5s;
+    }
+
+    .s31img:hover{
+        transform: scale(1.65);
+        transition-duration: 0.5s;
+        display: block;
+        right: 60px;
+        position: relative;
+        z-index: 14;
     }
 
     .si31{
