@@ -126,26 +126,3 @@ visu4.addEventListener("click", function(e){
 
 });
 
-const visu5 = document.querySelector(".visu5");
-const overlay5 = document.querySelector(".transition5");
-
-visu5.addEventListener("click", function(e){
-
-    e.preventDefault();
-
-    const url = this.href;
-
-    overlay5.classList.add("active");
-
-    overlay5.addEventListener("transitionend", function(){
-
-        // attendre 2 secondes
-        setTimeout(() => {
-            sessionStorage.setItem("transition", "true");
-            window.location.href = url;
-        }, 2000);
-
-    }, { once:true });
-
-});
-
