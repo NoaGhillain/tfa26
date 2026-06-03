@@ -46,7 +46,6 @@ if (document.body.classList.contains("home")) {
     
         overlay2.addEventListener("transitionend", function(){
     
-            // attendre 2 secondes
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
@@ -71,7 +70,6 @@ if (document.body.classList.contains("home")) {
     
         overlay3.addEventListener("transitionend", function(){
     
-            // attendre 2 secondes
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
@@ -94,7 +92,6 @@ if (document.body.classList.contains("home")) {
     
         overlay4.addEventListener("transitionend", function(){
     
-            // attendre 2 secondes
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
@@ -120,7 +117,6 @@ visu.addEventListener("click", function(e){
 
     overlay.addEventListener("transitionend", function(){
 
-        // attendre 2 secondes
         setTimeout(() => {
             sessionStorage.setItem("transition", "true");
             window.location.href = url;
