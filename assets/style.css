@@ -47,6 +47,17 @@ body{
     opacity: 1;
 }
 
+.fade {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s;
+  }
+  
+  .fade.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 .creditlink{
     text-decoration: none;
     color: #3C4043;
@@ -229,6 +240,7 @@ body{
 .copyright{
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 small{
@@ -275,6 +287,7 @@ small{
     height: 540px;
     width: 100%;
     object-fit: cover;
+    opacity: 0;
 }
 
 .linkcase{
@@ -291,6 +304,7 @@ small{
     width: 253px;
     z-index: -9;
     opacity: 90%;
+    
 }
 
 .header__title{
@@ -299,6 +313,7 @@ small{
     font-size: 59px;
     font-weight: bold;
     margin-left: 25px;
+    opacity: 0;
 }
 
 .black{
@@ -317,6 +332,7 @@ small{
     margin-left: 25px;
     font-weight: bold;
     font-size: 18px;
+    opacity: 0;
 }
 
 .header__number{
@@ -334,6 +350,7 @@ small{
     margin-left: 25px;
     margin-top: -10px;
     font-size: 15px;
+    opacity: 0;
 }
 
 .header__link{
@@ -341,6 +358,7 @@ small{
     font-weight: bold;
     display: flex;
     align-items: center;
+    opacity: 0;
 }
 
 .header__linkContact{

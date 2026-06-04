@@ -31,6 +31,28 @@ if (document.body.classList.contains("home")) {
         }, 1700);
     });
 
+    const visu = document.querySelector(".visuel__link");
+    const overlay = document.querySelector(".transition");
+
+    visu.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        const url = this.href;
+
+        overlay.classList.add("active");
+
+        overlay.addEventListener("transitionend", function(){
+
+            setTimeout(() => {
+                sessionStorage.setItem("transition", "true");
+                window.location.href = url;
+            }, 2000);
+
+        }, { once:true });
+
+    });
+
 
 
     const visu2 = document.querySelector(".visu2");
@@ -103,28 +125,79 @@ if (document.body.classList.contains("home")) {
     
   }
 
+  if (document.body.classList.contains("rubrique")) {
 
-const visu = document.querySelector(".visuel__link");
-const overlay = document.querySelector(".transition");
+    const visu = document.querySelector(".visuel__link");
+    const overlay = document.querySelector(".transition");
 
-visu.addEventListener("click", function(e){
+    visu.addEventListener("click", function(e){
 
-    e.preventDefault();
+        e.preventDefault();
 
-    const url = this.href;
+        const url = this.href;
 
-    overlay.classList.add("active");
+        overlay.classList.add("active");
 
-    overlay.addEventListener("transitionend", function(){
+        overlay.addEventListener("transitionend", function(){
 
+            setTimeout(() => {
+                sessionStorage.setItem("transition", "true");
+                window.location.href = url;
+            }, 2000);
+
+        }, { once:true });
+
+    });
+
+    window.addEventListener('load', () => {
         setTimeout(() => {
-            sessionStorage.setItem("transition", "true");
-            window.location.href = url;
-        }, 2000);
+            document.querySelector('.header__title').classList.add('visible');
+        }, 100);
+    });
 
-    }, { once:true });
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__h2').classList.add('visible');
+        }, 400);
+    });
 
-});
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__txt').classList.add('visible');
+        }, 400);
+    });
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__img').classList.add('visible');
+        }, 700);
+    });
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__link').classList.add('visible');
+        }, 1000);
+    });
+
+  }
+
+
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.3,
+    rootMargin: "0px 0px -150px 0px"
+  });
+
+  document.querySelectorAll('.fade').forEach(el => {
+    observer.observe(el);
+  });
+
 
 
 
