@@ -47,7 +47,7 @@ if (document.body.classList.contains("home")) {
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
-            }, 2000);
+            }, 1500);
 
         }, { once:true });
 
@@ -71,7 +71,7 @@ if (document.body.classList.contains("home")) {
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
-            }, 2000);
+            }, 1500);
     
         }, { once:true });
     
@@ -95,7 +95,7 @@ if (document.body.classList.contains("home")) {
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
-            }, 2000);
+            }, 1500);
     
         }, { once:true });
     
@@ -117,7 +117,7 @@ if (document.body.classList.contains("home")) {
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
-            }, 2000);
+            }, 1500);
     
         }, { once:true });
     
@@ -143,7 +143,7 @@ if (document.body.classList.contains("home")) {
             setTimeout(() => {
                 sessionStorage.setItem("transition", "true");
                 window.location.href = url;
-            }, 2000);
+            }, 1500);
 
         }, { once:true });
 
