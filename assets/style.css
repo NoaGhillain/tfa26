@@ -13,6 +13,36 @@ body{
     background-color: #FDFAF7;
 }
 
+@media screen and (min-width: 300px) {
+
+    .header__h2{
+        opacity: 0;
+    }
+
+    .header__img{
+        opacity: 0;
+    }
+
+    .header__title{
+        opacity: 0;
+    }
+
+    .header__link{
+        opacity: 0;
+    }
+
+    .header__txt{
+        opacity: 0;
+    }
+
+    .actif{
+        opacity: 100%;
+        transition-duration: 0.3s;
+    }
+
+}
+
+
 .transition{
     position: fixed;
     top: 0;
@@ -51,12 +81,17 @@ body{
     opacity: 0;
     transform: translateY(30px);
     transition: 0.6s;
-  }
+}
   
-  .fade.visible {
+.fade.visible {
     opacity: 1;
     transform: translateY(0);
-  }
+}
+
+.visible{
+    opacity: 100%;
+    transition-duration: 0.3s;
+}
 
 .creditlink{
     text-decoration: none;
@@ -145,11 +180,6 @@ body{
 
 .v4{
     opacity: 0;
-}
-
-.visible{
-    opacity: 100%;
-    transition-duration: 0.3s;
 }
 
 .visuel{
@@ -287,7 +317,6 @@ small{
     height: 540px;
     width: 100%;
     object-fit: cover;
-    opacity: 0;
 }
 
 .linkcase{
@@ -313,7 +342,6 @@ small{
     font-size: 59px;
     font-weight: bold;
     margin-left: 25px;
-    opacity: 0;
 }
 
 .black{
@@ -332,7 +360,6 @@ small{
     margin-left: 25px;
     font-weight: bold;
     font-size: 18px;
-    opacity: 0;
 }
 
 .header__number{
@@ -350,7 +377,6 @@ small{
     margin-left: 25px;
     margin-top: -10px;
     font-size: 15px;
-    opacity: 0;
 }
 
 .header__link{
@@ -358,7 +384,6 @@ small{
     font-weight: bold;
     display: flex;
     align-items: center;
-    opacity: 0;
 }
 
 .header__linkContact{
@@ -657,6 +682,7 @@ li{
     .header__title{
         font-size: 100px;
         margin-left: 60px;
+        opacity: 0;
     }
     
     .header__h2{
@@ -664,6 +690,7 @@ li{
         width: 300px;
         margin-left: 60px;
         font-size: 24px;
+        opacity: 0;
     }
     
     .header__txt{
@@ -672,6 +699,15 @@ li{
         margin-left: 60px;
         margin-top: -10px;
         font-size: 15px;
+        opacity: 0;
+    }
+
+    .header__link{
+        opacity: 0;
+    }
+
+    .header__img{
+        opacity: 0;
     }
 
     .display{
@@ -737,6 +773,11 @@ li{
 
     .sousSousTitle{
         margin-left: 60px;
+    }
+
+    .visible{
+        opacity: 100%;
+        transition-duration: 0.3s;
     }
 
     .divContenu__txt{

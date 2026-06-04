@@ -179,6 +179,39 @@ if (document.body.classList.contains("home")) {
         }, 1000);
     });
 
+
+
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__title').classList.add('actif');
+        }, 100);
+    });
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__h2').classList.add('actif');
+        }, 400);
+    });
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__txt').classList.add('actif');
+        }, 400);
+    });
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__img').classList.add('actif');
+        }, 700);
+    });
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.querySelector('.header__link').classList.add('actif');
+        }, 1000);
+    });
+
   }
 
 
