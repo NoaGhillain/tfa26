@@ -476,6 +476,7 @@ li{
 .img_design{
     width: 100%;
     height: auto;
+    border: #3C4043 1px solid;
 }
 
 .lastimg{
