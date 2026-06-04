@@ -761,7 +761,7 @@ li{
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1080px) {
 
     .display{
         margin-left: 200px;
@@ -784,6 +784,15 @@ li{
 
     .visuel{
         opacity: 0%;
+        margin-top: -15px;
+    }
+
+    .v1{
+        margin-left: 0px;
+    }
+
+    .v4{
+        margin-right: 0px;
     }
 
     .visible{
@@ -850,7 +859,7 @@ li{
     }
 
     .st{
-        margin-top: -50px;
+        margin-top: -10px;
     }
 
     .txt{
@@ -961,7 +970,7 @@ li{
     }
 
     .sst2{
-        margin-top: -120px;
+        margin-top: 20px;
     }
 
     .header__color{
