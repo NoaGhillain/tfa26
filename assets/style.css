@@ -354,6 +354,17 @@ small{
     transition-duration: 0.3s;
 }
 
+.hlc{
+    position: absolute;
+    color: #FDFAF7;
+    font-size: 24px;
+    right: 25px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -25px;
+    transition-duration: 0.3s;
+}
+
 .header__linkContact:hover{
    color: #BA8268;
    transition-duration: 0.3s;
@@ -702,6 +713,10 @@ li{
         margin-left: 60px;
     }
 
+    .transition__message{
+        font-size: 26px;
+    }
+
     .sousSousTitle{
         margin-left: 60px;
     }
@@ -709,6 +724,7 @@ li{
     .divContenu__txt{
         margin-left: 60px;
         margin-right: 60px;
+        font-size: 26px;
     }
 
     .s23{
